@@ -68,7 +68,7 @@ public class BeritaFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_berita,container,false);
 
         _webView = (WebView) view.findViewById(R.id.beritaWebView);
-        _webView.loadUrl("https://www.tribunnews.com/");
+        _webView.loadUrl("https://www.detik.com/");
 
         WebSettings settings = _webView.getSettings();
         settings.setJavaScriptEnabled(true);
